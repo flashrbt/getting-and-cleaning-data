@@ -29,11 +29,11 @@ if (!file.exists(path)) {
  
 #read the data files 
 
-     file_trainx<-fread("./UCI HAR Dataset/train/x_train.txt")
+     file_trainx<-fread("./UCI HAR Dataset/train/X_train.txt")
     
      file_trainy<-fread("./UCI HAR Dataset/train/y_train.txt")
      
-     file_testx<-fread("./UCI HAR Dataset/test/x_test.txt")
+     file_testx<-fread("./UCI HAR Dataset/test/X_test.txt")
      
      file_testy<-fread("./UCI HAR Dataset/test/y_test.txt")
      
